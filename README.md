@@ -27,3 +27,49 @@
   </a>
 </p>
 
+
+# MicroX Kernel
+
+MicroX Kernel is a minimalistic operating system kernel developed in C and Assembly. It aims to provide a lightweight and efficient foundation for understanding operating system concepts and kernel development.
+
+## Features
+
+- **Minimalistic Design:** MicroX Kernel is designed to be small and lightweight, focusing on essential operating system functionalities.
+- **Written in C and Assembly:** The kernel is primarily written in C with critical sections implemented in Assembly for low-level hardware interactions.
+- **Educational Purpose:** MicroX Kernel serves as a learning tool for understanding operating system principles, kernel development, and x86 assembly programming.
+- **Modular Architecture:** The kernel's architecture is designed to be modular, making it easy to understand and extend for educational experimentation.
+
+## Getting Started
+
+To get started with MicroX Kernel development, follow these steps:
+
+1. **Clone the Repository:** Clone this repository to your local machine using Git:
+
+   ```
+   git clone https://github.com/ankushsinghgandhi/MicroX-Kernel.git
+   ```
+
+2. **Set Up the Development Environment:** Ensure you have a cross-compiler toolchain configured for x86 architecture. You'll also need an emulator like QEMU for testing the kernel.
+
+3. **Explore the Source Code:** Take a look at the source code in the repository to understand the kernel's structure and implementation.
+
+4. **Build and Run:** Use the provided build scripts or Makefile to build the kernel. Then, run it using an emulator like QEMU to observe its behavior.
+
+5. **Contribute:** Feel free to contribute to the project by fixing bugs, adding features, or improving documentation. Submit pull requests to collaborate with the community.
+
+## Documentation
+
+For detailed documentation on MicroX Kernel's architecture, design principles, and implementation details, refer to the [Wiki](https://github.com/ankushsinghgandhi/MicroX-Kernel/wiki).
+
+## License
+
+MicroX Kernel is open-source software released under the [MIT License](LICENSE). Feel free to use, modify, and distribute the kernel for educational and non-commercial purposes.
+
+## Acknowledgements
+
+We would like to thank the creators of MINIX, UNIX, and Linux for their pioneering work in operating system development, which serves as inspiration for projects like MicroX Kernel.
+
+## Contact
+
+For any questions, suggestions, or feedback, please feel free to contact the project maintainers at [your-email@example.com](mailto:your-email@example.com).
+
